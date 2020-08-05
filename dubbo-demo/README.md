@@ -28,5 +28,7 @@ To run the consumer '*dubbo-demo-api-consumer*', execute the following command:
 java -Djava.net.preferIPv4Stack=true -jar dubbo-demo-api-consumer-${project.version}.jar
 ```
 
-自我理解：
+## 自我理解：
 1 dubbo怎么实现负载均衡？
+
+遇到的问题是，dubbo加载的时候遇到的ip不对。
